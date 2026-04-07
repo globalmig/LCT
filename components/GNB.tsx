@@ -24,7 +24,7 @@ export default function GNB() {
     <nav className={`fixed top-0 left-0 w-full z-50 transition-all duration-300 ${scrolled ? "bg-[#050A18] shadow-lg" : "bg-transparent"}`}>
       <div className="max-w-7xl mx-auto px-6 py-4 flex items-center justify-between">
         <Link href="/" className="text-white font-bold text-xl tracking-tight">
-          LCT Holdings
+          LCTech Holdings
         </Link>
 
         <ul className="hidden md:flex items-center gap-8">

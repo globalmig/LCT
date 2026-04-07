@@ -75,7 +75,7 @@
 ---
 
 ■ 회사명
-LCTHoldings
+LCTech Holdings
 
 ---
 

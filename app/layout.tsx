@@ -17,7 +17,7 @@ const notoSansKR = Noto_Sans_KR({
 });
 
 export const metadata: Metadata = {
-  title: "LCT Holdings",
+  title: "LCTech Holdings",
   description: "폴더블 디바이스 리페어 산업 기반 기술 기업",
 };
 
@@ -27,10 +27,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html
-      lang="ko"
-      className={`${geistSans.variable} ${notoSansKR.variable} h-full antialiased`}
-    >
+    <html lang="ko" className={`${geistSans.variable} ${notoSansKR.variable} h-full antialiased`}>
       <body className="min-h-full flex flex-col">
         <GNB />
         <main className="flex-1">{children}</main>
